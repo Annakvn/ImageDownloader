@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5942f4"
+    tools:context=".DownloadActivity">
+
+    <EditText
+        android:id="@+id/URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL"
+        android:background="#bebad8"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_margin="40dp"/>
+    <EditText
+        android:id="@+id/title"
+        android:background="#bebad8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title"
+        android:layout_margin="40dp"/>
+    <Button
+        android:id="@+id/downloadButton"
+        android:onClick="downloadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#9a91d8"
+        android:text="Download"
+        android:layout_margin="40dp"/>
+
+</LinearLayout>
